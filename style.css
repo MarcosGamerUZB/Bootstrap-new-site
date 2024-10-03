@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.header__button{
+    display: none;
+    width: 0;
+    margin-top: 16px;
+}
+#caros{
+    display: none;
+}
+.cr__item{
+    background-image: url(assets/2.png), url();
+    background-repeat: no-repeat;
+}
+.holdline{
+    height: 240px;
+}
+.phone{
+    left: 100px;
+}
+.button-mine{
+    width: 100%;
+}
+.hide-own{
+    display: none;
+}
+.hide-mine{
+    display: none;
+}
+.footer__item{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__item:hover{
+    color: #004293;
+}
+.btn-own{
+    display: flex;
+}
+.footer__image{
+    margin: auto;
+}
+.footer__false{
+    background-color: #004293;
+}
+.footer__true{
+    flex-direction: column;
+}
+.header__logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.section2{
+    background-image: url(assets/Ellipse\ 6.png), url(assets/Ellipse\ 6.png); background-position: -200px 0px, 120% 100%; background-repeat: no-repeat;
+}
+.part3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-mine{
+    height: 30%;
+    border-radius: 24px;
+}
+.input-mine__big{
+    border-radius: 24px;
+    overflow: hidden;
+}
+.input-mine__big::placeholder{
+    position: relative;
+    left: 20px;
+}
+.input-mine::placeholder{
+    position: relative;
+    left: 20px;
+}
+.input-father{
+    margin-top: 60px;
+}
+.van{
+    position: relative;
+    right: initial;
+    width: 100%;
+}
+.van-section{
+    background-position: center 530px;
+    background-size: 50%;
+}
+@media screen and (min-width: 1400px){
+    .father__mine{
+        margin-left: 250px;
+    }
+    .phone-mine{
+        width: 250px;
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px){
+    .header__logo{
+        position: relative;
+        right: 100px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .van-section{
+        background-position: 120% bottom; background-size: 30%;
+    }
+    .van{
+        width: initial;
+        position: absolute;
+        right: -200px;
+    }
+    .phone-mine{
+        width: 250px;
+        margin-left: 200px;
+    }
+    .section2{
+        background-image: none, none;
+    }
+    .header__logo{
+        margin-left: initial;
+    }
+    .footer__false{
+        background-color: transparent;
+    }
+    .lineitem{
+        height: 50%;
+    }
+    .lineitem:nth-child(2){
+        position: relative;
+        top: 250px;
+    }
+    .holdline{
+        height: 480px;
+    }
+    .phone{
+        left: 25x0px;
+    }
+}
+/* @media screen and (min-width: {
+    
+} */
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+    .phone-mine{
+        width: 250px;
+        margin-left: 40px;
+    }
+    .father__mine{
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width: 992px){
+    .input-father{
+        margin-top: 30px;   
+    }
+    .part3{
+        margin-left: initial;
+        margin-right: initial;
+    }
+    .footer__item{
+        margin-left: 145px;
+        width: 200px;
+    }
+    .footer__image{
+        margin: initial;
+    }
+    .button-mine{
+        width: 48%;
+    }
+    .button-mine:first-child{
+        margin-right: 4%;
+    }
+}
+@media screen and (min-width: 977px){
+    .footer__text{
+        position: absolute;
+        left: 16px;
+    }
+    .footer__img{
+        top: 23px;
+        position: absolute;
+        right: 16px;
+    }
+    .footer__true{
+        height: 90px;
+        flex-direction: row;
+    }
+    .header__button{
+        min-width: 271px;
+    }
+    .header__title{
+        margin-left: 42px;
+    }
+    .lorem100{
+        margin-left: 42px;
+    }
+    #cr__title{
+        max-width: 500px;
+    }
+    .cr__button{
+        margin-left: 42px;
+        max-width: 420px;
+    }
+    .cr__text{
+        max-width: 500px;
+    }
+    .cr__item{
+        background-image: url(assets/2.png), url(assets/delivery-man-with-box-studio-against-blue-background\ 1-PhotoRoom\ 1.png);
+        background-position: top left, center right;
+        background-repeat: no-repeat;
+    }
+}
